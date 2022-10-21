@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  padding: 30px;
+  overflow: hidden;
+  background: #313131;
+}
+.color-field {
+  height: 40px;
+  width: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid white;
+  align-self: center;
+  margin: 0 15px;
+}
+.button {
+  align-self: center;
+  width: 8%;
+  min-width: 80px;
+  height: 40px;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  background: #222;
+  font-weight: bold;
+  margin: 0 15px;
+}
+.color-picker {
+  align-self: center;
+  margin: 0 15px;
+  height: 50px;
+}
+canvas {
+  box-shadow: -3px 2px 9px 6px black;
+  cursor: crosshair;
+}
+.pen-range {
+  align-self: center;
+  margin: 0 15px;
+}
+.field {
+  text-align: center;
+  height: 1080px;
+}
+label {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 140%;
+}
+#checkboxes {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background: rgb(51, 51, 51);
+}
+.top,
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 50%;
+}
+.tools {
+  height: 20%;
+  padding: 1px;
+}
+input[type="checkbox"] {
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 0.7em;
+  height: 0.7em;
+  border: 0.1em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+}
